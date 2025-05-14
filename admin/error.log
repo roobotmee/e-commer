@@ -1,0 +1,24 @@
+[14-May-2025 04:29:53 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/admin/add-product.php:111
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/admin/add-product.php on line 111
+[14-May-2025 05:03:24 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php:111
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php on line 111
+[14-May-2025 05:05:56 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php:114
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php on line 114
+[14-May-2025 05:08:57 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php:114
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php on line 114
+[14-May-2025 05:09:28 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /var/www/roo393/data/www/sossmm.uz/admin/categories.php:37
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/admin/categories.php on line 37
+[14-May-2025 05:11:03 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php:113
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/admin/add-category.php on line 113
