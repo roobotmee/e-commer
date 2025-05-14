@@ -1,0 +1,36 @@
+[14-May-2025 04:12:47 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:43
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 43
+[14-May-2025 04:14:01 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:43
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 43
+[14-May-2025 04:14:05 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:43
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 43
+[14-May-2025 04:14:11 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:43
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 43
+[14-May-2025 04:21:01 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:43
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 43
+[14-May-2025 04:21:44 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 46
+[14-May-2025 04:21:47 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 46
+[14-May-2025 04:21:50 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 46
+[14-May-2025 04:31:31 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /var/www/roo393/data/www/sossmm.uz/catalog.php:43
+Stack trace:
+#0 {main}
+  thrown in /var/www/roo393/data/www/sossmm.uz/catalog.php on line 43

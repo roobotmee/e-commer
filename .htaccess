@@ -1,0 +1,49 @@
+# Xavfsizlik
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# PHP sozlamalari
+<IfModule mod_php7.c>
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>
+
+# URL qayta yo'naltirish
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Asosiy URL qayta yo'naltirish
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^product/([a-zA-Z0-9-]+)$ product.php?slug=$1 [L,QSA]
+    RewriteRule ^category/([a-zA-Z0-9-]+)$ category.php?slug=$1 [L,QSA]
+    RewriteRule ^page/([a-zA-Z0-9-]+)$ page.php?slug=$1 [L,QSA]
+    
+    # Admin panelini himoya qilish
+    RewriteCond %{REQUEST_URI} ^/admin/
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^admin/(.*)$ admin/index.php [L]
+</IfModule>
+
+# Katalogni ko'rishni o'chirish
+Options -Indexes
+
+# Maxfiy fayllarni himoya qilish
+<FilesMatch "^\.(htaccess|htpasswd|ini|log|sh|inc|bak)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# PHP fayllarini himoya qilish
+<FilesMatch "(config|connect)\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
