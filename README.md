@@ -1,4 +1,4 @@
-# npm install
+
 # yarn install
 # pnpm install
 # npm install --legacy-peer-deps
